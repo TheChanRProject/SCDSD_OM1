@@ -2,7 +2,7 @@ import os
 import numpy as np, pandas as pd, matplotlib.pyplot as plt
 from jupyterthemes import jtplot
 
-jtplot.style(theme='solarizedl')
+jtplot.style(theme='monokai')
 
 def farenheit(x):
     return 1.8*x + 32
