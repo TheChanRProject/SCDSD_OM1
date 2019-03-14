@@ -1,3 +1,3 @@
 import os
-import numpy, pandas, matplotlib.pyplot as np, pd, plt
-from jupyterthemes import jtplot 
+import numpy as np, pandas as pd, matplotlib.pyplot as plt
+from jupyterthemes import jtplot
