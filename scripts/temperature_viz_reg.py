@@ -13,4 +13,7 @@ Y = farenheit(X)
 plt.figure(figsize=(12,8))
 plt.scatter(X,Y)
 
-temp_dict = {'col1': X, 'col2': Y} 
+temp_dict = {'col1': X, 'col2': Y}
+
+df = pd.DataFrame.from_dict(temp_dict)
+df.head()
