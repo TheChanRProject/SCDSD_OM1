@@ -18,4 +18,4 @@ temp_dict = {'col1': X, 'col2': Y}
 df = pd.DataFrame.from_dict(temp_dict)
 df.head()
 df.to_csv("sample_data.csv")
-os.system('cd .. && ls')
+os.system('mv *.csv data')
